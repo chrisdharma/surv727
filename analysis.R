@@ -5,3 +5,6 @@ public_data <- read.csv("data/public_data.csv")
 # Your task: calculate the mean score for the public data.
 # Add your code here on your own branch.
 
+# Calculate the mean score for the public data.
+mean_score <- mean(public_data$score)
+print(mean_score)
