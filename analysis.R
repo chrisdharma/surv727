@@ -8,3 +8,4 @@ mean <- mean(public_data$Score)
 
 #Sean Johnson github testing
 
+mean(public_data$Scores)

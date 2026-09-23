@@ -1,0 +1,8 @@
+# Important Git commands collected from the web reference
+# Add the missing command for checking the current repository state.
+git clone
+git branch
+git switch
+git add
+git commit
+git push
