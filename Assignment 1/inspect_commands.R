@@ -22,7 +22,7 @@ important_commands <- data.frame(
 command_links <- paste0("git-", sub("git ", "", important_commands$command))
 
 # TODO: add a status column showing whether each command appears on the page.
-# important_commands$status <- vapply(command_links, function(link) any(grepl(link, scraped_git_commands, fixed = TRUE)), logical(1))
+important_commands$status <- vapply(command_links, function(link) any(grepl(link, scraped_git_commands, fixed = TRUE)), logical(1))
 
 print(important_commands, row.names = FALSE)
 #This command should print 3 different columns, command, description and status. The last status should be FALSE
